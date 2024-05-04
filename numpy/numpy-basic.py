@@ -251,3 +251,8 @@ print(i)
 a = np.array([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16])
 a=a[[1,2,4]]
 print(a)
+
+#reshaping
+a = np.arange(20)
+a = a.reshape(-1,5) #5 is the colun number. -1 automatically sets the row number
+print(a)
